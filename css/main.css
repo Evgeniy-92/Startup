@@ -1,6 +1,45 @@
-@import url("./reset.css");
-@import url("./settings.css");
-@import url("./fonts.css");
+@import "./reset.css";
+@import "./settings.css";
+@import "./fonts.css";
+
+.wr-intro {
+    background-image: url("../img/main-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center bottom;
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
 
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat-Bold", sans-serif;
+    letter-spacing: -.4px;
+}
+
+.nav ul {
+    display: flex;
+    letter-spacing: 0.3px;
+}
+.nav li {
+    margin-left: 34px;
+    font-size: 14px;
+}
+
+.nav a {
+    color: #fff;
+    font-family: "Montserrat-Regular", sans-serif;
+}
 

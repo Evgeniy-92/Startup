@@ -1,0 +1,19 @@
+body {
+    font-family: "RobotoSlab-Regular";
+    font-size: 14px;
+    color: #555;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
