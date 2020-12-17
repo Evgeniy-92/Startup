@@ -21,7 +21,6 @@
     
 }
 
-
 .logo {
     color: #fff;
     font-size: 24px;
@@ -41,5 +40,32 @@
 .nav a {
     color: #fff;
     font-family: "Montserrat-Regular", sans-serif;
+}
+
+.wr-home {
+    padding-top: 27.6vh;
+}
+
+.wr-home .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-home p {
+    color: #fff;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    margin-bottom: 23px;
+}
+
+.wr-home h1 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 52px;
 }
 
