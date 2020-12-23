@@ -69,3 +69,98 @@
     margin-bottom: 52px;
 }
 
+/* WR-SERVICES */
+.wr-services {
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.wr-services .section-title-block {
+    margin-bottom: 73px;
+}
+
+.section-service-block .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    background-color: #fff;
+    border: solid 2px #ddd;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.description {
+    text-align: center;
+    line-height: 24px;
+    
+}
+
+.description h3 {
+    font-family: Montserrat-Regular, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+/* WR-ABOUT-US */
+.wr-about-us {
+    background-color: #f8f8f8;
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.wr-about-us .section-title-block {
+    margin-bottom: 67px;
+}
+
+
+.information-block .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+
+.information-block p {
+    line-height: 24px;
+}
+
+.information-block .block-right {
+    margin-left: 23px;
+}
+
+.team .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team h3 {
+    font-family: Montserrat-Regular, sans-serif;
+    text-transform: uppercase;
+    margin-left: 11px;
+    margin-bottom: 13px;
+}
+
+.team h4 {
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.team .member {
+    text-align: center;
+}
+
+.team .photo {
+    margin-bottom: 19px;
+}
