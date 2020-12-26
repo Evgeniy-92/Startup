@@ -88,7 +88,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
+
+.block-2 {
+   margin: 0 45px; 
+}
+
 
 .circle {
     background-color: #fff;
@@ -126,7 +133,7 @@
 }
 
 
-.information-block .wrapper {
+.information-block {
     display: flex;
     justify-content: space-between;
     margin-bottom: 67px;
@@ -140,9 +147,10 @@
     margin-left: 23px;
 }
 
-.team .wrapper {
+.team {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .team h3 {
@@ -159,8 +167,50 @@
 
 .team .member {
     text-align: center;
+    padding-bottom: 10px;
+    background-color: #4F8BDF;
 }
 
-.team .photo {
+.member-photo {
     margin-bottom: 19px;
+    
 }
+
+.team .slick-slide {
+    margin: 0 16px;
+}
+/* the parent */
+.team .slick-list {
+    margin: 0 -16px;
+}
+
+.member {
+    max-width: 264px;
+    color: #fff;
+    
+}
+
+.member-photo {
+    width: 100%;
+    height: 250px;
+}
+
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.member h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 10px;
+    margin: 20px 0;
+}
+
+
+
+
+

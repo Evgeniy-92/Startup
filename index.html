@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -42,21 +44,21 @@
 
         <div class="section-service-block">
             <div class="wrapper">
-                <div class="service-block">
+                <div class="service-block block-1">
                     <div class="circle"><img src="./img/icon_services/icon-font-red.png" alt=""></div>
                     <div class="description">
                         <h3>Clean Typography</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
                     </div>
                 </div>
-                <div class="service-block">
+                <div class="service-block block-2">
                     <div class="circle"><img src="./img/icon_services/icon-code-red.png" alt=""></div>
                     <div class="description">
                         <h3>Rock Solid Code</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
                     </div>
                 </div>
-                <div class="service-block">
+                <div class="service-block block-3">
                     <div class="circle"><img src="./img/icon_services/icon-support-red.png" alt=""></div>
                     <div class="description">
                         <h3>Expert Support</h3>
@@ -74,43 +76,78 @@
                 <span></span>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
             </div>
-        </div>
 
-        <div class="information-block">
-            <div class="wrapper">
+            <div class="information-block">
                 <p class="block-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
                 <p class="block-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Loreipsum dolor sit amet. Lorem ipsum dolor et.</p>
             </div>
-        </div>
         
-        <div class="team">
-            <div class="wrapper">
+            <div class="team">
                 <div class="member">
-                    <img class="photo" src="./img/about_us/team_photo/uddin-photo.jpg" alt="">
+                    <div class="member-photo"> 
+                        <img class="photo" src="./img/about_us/team_photo/uddin-photo.jpg" alt=""></div>
                     <h3>Md. Khalil Uddin</h3>
                     <h4>Head of Ideas</h4>
                 </div>
                 <div class="member">
-                    <img class="photo" src="./img/about_us/team_photo/miah-photo.jpg" alt="">
+                    <div class="member-photo">
+                        <img class="photo" src="./img/about_us/team_photo/miah-photo.jpg" alt="">
+                    </div>
                     <h3>Rubel Miah</h3>
                     <h4>Lead WordPress Developer</h4>
                 </div>
                 <div class="member">
-                    <img class="photo" src="./img/about_us/team_photo/mia-photo.jpg" alt="">
+                    <div class="member-photo">
+                        <img class="photo" src="./img/about_us/team_photo/mia-photo.jpg" alt="">
+                    </div>
                     <h3>Shamim Mia</h3>
                     <h4>Sr. Web Developer</h4>
                 </div>
                 <div class="member">
-                    <img class="photo" src="./img/about_us/team_photo/doe-photo.jpg" alt="">
+                    <div class="member-photo">
+                        <img class="photo" src="./img/about_us/team_photo/doe-photo.jpg" alt="">
+                    </div>
                     <h3>John Doe</h3>
                     <h4>Front-end Developer</h4>
                 </div>
+                <div class="member">
+                    <div class="member-photo"> 
+                        <img class="photo" src="./img/about_us/team_photo/uddin-photo.jpg" alt=""></div>
+                    <h3>Md. Khalil Uddin</h3>
+                    <h4>Head of Ideas</h4>
+                </div>
+                <div class="member">
+                    <div class="member-photo">
+                        <img class="photo" src="./img/about_us/team_photo/miah-photo.jpg" alt="">
+                    </div>
+                    <h3>Rubel Miah</h3>
+                    <h4>Lead WordPress Developer</h4>
+                </div>
+                <div class="member">
+                    <div class="member-photo">
+                        <img class="photo" src="./img/about_us/team_photo/mia-photo.jpg" alt="">
+                    </div>
+                    <h3>Shamim Mia</h3>
+                    <h4>Sr. Web Developer</h4>
+                </div>
+                <div class="member">
+                    <div class="member-photo">
+                        <img class="photo" src="./img/about_us/team_photo/doe-photo.jpg" alt="">
+                    </div>
+                    <h3>John Doe</h3>
+                    <h4>Front-end Developer</h4>
+                </div>
+                
             </div>
+            <!-- <button class="slider-arrow arrow-left"></button>
+            <button class="slider-arrow arrow-right"></button> -->
         </div>
 
     </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
