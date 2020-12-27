@@ -168,7 +168,8 @@
 .team .member {
     text-align: center;
     padding-bottom: 10px;
-    background-color: #4F8BDF;
+    max-width: 264px;
+    
 }
 
 .member-photo {
@@ -184,11 +185,6 @@
     margin: 0 -16px;
 }
 
-.member {
-    max-width: 264px;
-    color: #fff;
-    
-}
 
 .member-photo {
     width: 100%;
